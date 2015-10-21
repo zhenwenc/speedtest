@@ -1,12 +1,31 @@
-*.class
+# General Ignore Extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# OS or IDE Ignore Folders
+.cache
+.settings
+*.sublime-project
+*.sublime-workspace
+**/.metadata/
 
-# Package Files #
+# Java Ignore Files
 *.jar
 *.war
 *.ear
+*.class
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Build Ignore Folders
+bin
+target
+dist
+.idea
+**/.DS_Store
